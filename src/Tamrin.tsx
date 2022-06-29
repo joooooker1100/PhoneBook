@@ -10,7 +10,7 @@ function Tamrin() {
   const [firstName, setFirstName] = useState<string>();
   const [lastName, setLastName] = useState<string>();
   const[phoneNumber,setPhoneNumber]=useState<string>();
-  const[state,setState]=useState<any[]>([""]);
+  const[state,setState]=useState<any[]>([]);
   
   
 
@@ -51,7 +51,7 @@ function Tamrin() {
         } }>
           Save
         </Button>
-        <Button className="buttom" variant="outlined">
+        <Button className="buttom" variant="outlined" onClick={()=>{}}>
           Delete
         </Button>
       </Stack>
