@@ -36,9 +36,30 @@
     transform: rotate(360deg);
   }
 }
-.boody{
-  padding: 10px;
-  height: 500px;
-  width: 300px;
+.div1{
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  height: 600px;
+  width: 500px;
   border: 1px solid red;
+  padding: 8px;
+  
+  
+}
+.buttom{
+ 
+  
+  margin-top: 0px;
+  padding-top: 20px;
+
+}
+th , td{
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
 }
